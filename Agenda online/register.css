@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Arimo", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./fundoregistrar.png');
+    background-size: cover;
+    background-position: center;
+}
+
+ .container{
+    width: 500px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255 , 255, .15);
+    border-radius: 10px;
+    color: white;
+    padding: 30px 40px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 200px 100px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    backdrop-filter: blur(5px);
+ }
+
+.container h1{
+        font-size: 36px;
+        text-align: center;
+}
+
+.register {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.register input {
+    width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: 2px solid rgba(255, 255 , 255, .2); 
+        border-radius: 40px;
+        outline: none;
+        font-size: 16px;
+        color: white;
+        padding: 20px 45px 20px 20px;
+}
+.senha {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+.senha input {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: 2px solid rgba(255, 255 , 255, .2); 
+        border-radius: 40px;
+        outline: none;
+        font-size: 16px;
+        color: white;
+        padding: 20px 45px 20px 20px;
+
+}
+
+.register input::placeholder {
+        color: white;
+
+}
+.senha input::placeholder {
+        color: white;
+
+    }
+    .register i {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px ;
+}
+ .senha i {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px ;
+}
+.registre {
+        width: 100%;
+        height: 50px;
+        background-color: #fff;
+        border: none;   
+        border-radius: 40px;
+        cursor: pointer;
+        font-size: 16px ;
+        color: #333;
+        font-weight: 600;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .registre:hover {
+        background-color: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        color: #fff;
+        transition: 0.5s;
+    }
+.name {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.name input {
+    width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: 2px solid rgba(255, 255 , 255, .2); 
+        border-radius: 40px;
+        outline: none;
+        font-size: 16px;
+        color: white;
+        padding: 20px 45px 20px 20px;
+}
+.celular {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+.celular input {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: 2px solid rgba(255, 255 , 255, .2); 
+        border-radius: 40px;
+        outline: none;
+        font-size: 16px;
+        color: white;
+        padding: 20px 45px 20px 20px;
+
+}
+
+.name input::placeholder {
+        color: white;
+
+}
+.celular input::placeholder {
+        color: white;
+
+    }
+    .name i {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px ;
+}
+ .celular i {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px ;
+}
